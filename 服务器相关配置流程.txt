@@ -1,0 +1,89 @@
+﻿
+服务器相关配置 文件在代码资源文件中 systemConfig.xml
+
+Centos 工具  securtCRT
+
+后台短网址申请地址:https://www.showapi.com
+
+服务器相关
+
+安装一个 ffmpeg  用于处理视频截图
+
+
+创建代理 文件包
+mkdir  speed/img
+配置tomcat 虚拟路径
+<Context  docBase="/speed/img/"  path="/upload" />
+
+配置断流回调
+http://app.nacret.cn/app/endSpeedDating.html  断流回调
+http://app.nacret.cn/app/tencentCallback.html  鉴黄回调
+后端管理平台
+1.创建文件  screenshot
+2.上传D盘 123文件夹里面的123.jpg到目录下
+
+
+mysql配置文件路径： 
+配置文件：/etc/my.cnf 
+日志文件：/var/log/mysqld.log 
+服务启动脚本：/usr/lib/systemd/system/mysqld.service 
+socket文件：/var/run/mysqld/mysqld.pid
+
+
+配置mysql 头
+
+sql_mode=STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
+页中
+port=3506
+max_connections=10000
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+server_id = 1
+expire_logs_days = 3
+
+
+
+设置远程登陆账号
+grant all on *.* to 'root001'@'%' identified by 'Test@remote!@#$%1230.'  with grant option;
+
+#修改mysql 登录密码
+alter user 'root'@'localhost' identified by 'Meet@admin!@#2018';  
+
+Centos 7.4 mysql  
+启动   service mysqld start
+停止   service mysqld stop
+重启   service mysqld restart
+
+
+配置jdk
+export JAVA_HOME=/jdk/jdk1.8.0_171
+export JAVA_BIN=$JAVA_HOME/bin
+export JAVA_LIB=$JAVA_HOME/lib
+export CLASSPATH=.:$JAVA_LIB/tools.jar:$JAVA_LIB/dt.jar
+export PATH=$JAVA_BIN:$PATH
+
+
+
+查看防火墙开放端口
+firewall-cmd --zone=public --list-ports
+ 
+添加开放端口
+firewall-cmd --zone=public --add-port=8088/tcp --permanent
+
+重启生效
+firewall-cmd --reload
+
+ 腾讯云对象存储账号 配置在数据库中
+ AppId：1257159140
+ SecretId：AKID9HArlSgEQSM1UlteMtDZULrHUUK0rsAG
+ SecretKey：1vgIvrbJpBOjiYE9xwlkdHjwuwpT5Yrx
+ 包    名：douxin-1257159140
+ 区    域: ap-chengdu
+ 访问地址:	https://douxin-1257159140.cos.ap-chengdu.myqcloud.com/
+ 
+ 
+
+
+
+
