@@ -1,0 +1,160 @@
+#__bs_notify__ {
+  display: none !important;
+}
+[class*=tell] {
+  display: table-cell;
+  vertical-align: middle;
+}
+[class*=dt] {
+  display: table;
+  width: 100%;
+}
+[class*=fw] {
+  float: left;
+  width: 100%;
+}
+[class*=item] ul {
+  display: table;
+  width: 100%;
+}
+[class*=item] ul li {
+  width: 100%;
+}
+[class*=item] ul li:last-child {
+  border-bottom: none;
+}
+[class*=icon] {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.toutu img {
+  width: 100%;
+}
+.mobile-wrap {
+  position: relative;
+  min-height: 100vh;
+}
+.bj1 {
+  background: url("../../img/208b314fb0fec0b4_750x1665.jpg") center top no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  overflow: hidden;
+  height: 16.65rem;
+}
+.wrap-box {
+  margin-top: 6.15rem;
+  background: url("../../img/b709acb11af19a84_746x941.png") center top no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  width: 7.46rem;
+  height: 9.41rem;
+}
+.wrap-box .box-one {
+  padding: 0.6rem;
+}
+.wrap-box .box-one p {
+  line-height: 1.8;
+  text-indent: 2em;
+  font-size: 0.34rem;
+}
+.wrap-box .box-two {
+  padding: 0.3rem;
+  margin-top: 0.25rem;
+}
+.wrap-box .box-two ul li {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.54rem;
+  position: relative;
+  padding-top: 0.35rem;
+  position: relative;
+}
+.wrap-box .box-two ul li:first-child:after {
+  display: none;
+}
+.wrap-box .box-two ul li:first-child:before {
+  display: none;
+}
+.wrap-box .box-two ul li:after {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 1px;
+  background: -webkit-linear-gradient(left, transparent, #f00, transparent);
+  left: 20%;
+  top: 0;
+}
+.wrap-box .box-two ul li b {
+  font-size: 0.34rem;
+  color: #373737;
+}
+.wrap-box .box-two ul li p {
+  color: #f00;
+  font-size: 0.4rem;
+  margin-top: 0.25rem;
+}
+.bj2 {
+  background: url("../../img/c73072f8b9dd5d5b_750x2515.jpg") center top no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 25.15rem;
+  overflow: hidden;
+}
+.box-wrapper {
+  padding: 0 6%;
+  display: table;
+  width: 100%;
+  margin-top: 2.8rem;
+}
+.box-wrapper .box {
+  -webkit-border-radius: 0.2rem;
+          border-radius: 0.2rem;
+  padding: 0.2rem;
+  background: #fff;
+  margin-bottom: 0.25rem;
+  margin-top: 0.8rem;
+  padding-bottom: 0.45rem;
+}
+.box-wrapper .box h2 {
+  top: -0.45rem;
+  width: 2.46rem;
+  height: 0.66rem;
+  line-height: 0.66rem;
+  background: url("../../img/76fd242cf2e6d43a_246x66.png") center top no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0.02rem 0.03rem rgba(0,0,0,0.6);
+  position: relative;
+}
+.box-wrapper .box b {
+  padding: 0 0.2rem 0.3rem;
+  margin-top: 0.59rem;
+  display: block;
+}
+.box-wrapper .box b:nth-of-type(1) {
+  margin-top: 0;
+}
+.box-wrapper .box p {
+  line-height: 1.8;
+  text-indent: 2em;
+}
+.box-wrapper .box strong {
+  display: block;
+  text-indent: 2em;
+  line-height: 1.8;
+}
+.copyright {
+  margin-top: 0.25rem;
+}
+.copyright p {
+  text-align: center;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

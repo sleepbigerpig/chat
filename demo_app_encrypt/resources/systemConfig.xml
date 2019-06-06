@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!-- 支付宝相关 -->
+<properties>
+    <!-- 推流地址 -->
+    <entry key="play_addr">rtmp://yiliao07.pullyi.1-liao.com/yiliao007/</entry>
+    <!-- 项目名称 -->
+    <entry key="projectName">demo</entry>
+    <!-- 支付宝回调地址 -->
+    <entry key="alipayNotifyUrl">http://app.1-liao.cn/pay/alipay_callback.html</entry>
+    <!-- 微信支付回调地址 -->
+    <entry key="weixinNotifyUrl">http://app.1-liao.cn/pay/wxPayCallBack.html</entry>
+    <!-- 微信支付IP地址 -->
+    <entry key="spbill_create_ip">106.15.88.38</entry>
+    <!-- 推送相关 -->
+    <entry key="app_key">40f7d4d87dd5a8397fc9af4a</entry>
+    
+    <entry key="master_secret">2ee10b360f319b547be543c5</entry>
+    
+    <!-- 渠道推广背景图片存储路径   windows -->
+	<entry key="windows_speed_fileUrl">D:/speed/img/</entry>
+	<!-- 渠道推广背景图片存储路径   centos -->
+	<entry key="centos_speed_fileUrl">/speed/img/</entry>
+	<!-- 配置图片房间地址 -->
+	<entry key="spreed_img_url">http://admin.1-liao.cn/upload/</entry>
+	<!-- 分享链接 -->
+	<entry key="share_url">http://app.1-liao.cn/share/jumpShare.html?userId=</entry>
+	<!--加密 公钥  在util包中 RSACoderUtil.java 类执行 -->
+	<entry key="encrypt_public"></entry>
+	<!--解密 私钥 -->
+	<entry key="encrypt_private"></entry>
+
+</properties>
